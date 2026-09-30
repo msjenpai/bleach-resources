@@ -1,0 +1,27 @@
+{
+  "id": "bleach-resources",
+  "title": "Bleach Resources",
+  "description": "Adds Reiatsu and Stamina resources to Soul Society characters.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.5"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/bleach-resources.css"
+  ]
+}
