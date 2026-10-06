@@ -1,27 +1,45 @@
 {
   "id": "bleach-resources",
   "title": "Bleach Resources",
-  "description": "Adds Reiatsu and Stamina resources to Soul Society characters.",
+  "description": "Adds Soul Society 5e resources, automation, class features, spiritual feats, techniques, and compendium content to Foundry VTT.",
   "version": "0.1.0",
+
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },
+
   "relationships": {
     "systems": [
       {
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "6.0.5"
+          "minimum": "6.0.5",
+          "verified": "6.0.5"
         }
       }
     ]
   },
+
   "esmodules": [
     "scripts/main.js"
   ],
+
   "styles": [
     "styles/bleach-resources.css"
-  ]
+  ],
+
+  "packs": [
+    {
+      "name": "bleach-resources-or-shinigami",
+      "label": "Bleach Resources | Shinigami",
+      "path": "packs/bleach-resources-or-shinigami",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+
+  "manifest": "https://raw.githubusercontent.com/msjenpai/bleach-resources/main/bleach-resources/module.json",
+  "download": "PASTE-YOUR-ZIP-LINK-HERE"
 }
