@@ -40,6 +40,6 @@
     }
   ],
 
-  "manifest": "https://raw.githubusercontent.com/msjenpai/bleach-resources/main/bleach-resources/module.json",
-  "download": "PASTE-YOUR-ZIP-LINK-HERE"
+  "manifest": "https://raw.githubusercontent.com/msjenpai/bleach-resources/refs/heads/main/bleach-resources/module.json",
+  "download": "https://github.com/msjenpai/bleach-resources/releases/download/v0.1.0/bleach-resources.v0.1.0.zip"
 }
